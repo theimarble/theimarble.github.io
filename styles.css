@@ -1,15 +1,72 @@
-.sidebar {
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/whitneymedium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/whitneymediumitalic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/whitneysemibold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/whitneySemiboldItalic.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/whitneybook.otf');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('fonts/whitneybookitalic.otf');
+    font-weight: light;
+    font-style: italic;
+}
+
+body {
+    background-color: #08090a;
+    color: #ffffff;
+    font-family: "Whitney", Helvetica, Arial, sans-serif;
+}
+
+.content {
+    margin-left: 90px;
+}
+
+.nav {
     height: 100%;
-    width: 100px;
+    width: 70px;
     position: absolute;
     left: 0;
     top: 0;
     padding-top: 40px;
-    background-color: lightblue;
+    background-color: #141618;
+    border-right: 1px solid #272732;
+    font-size: 36px;
+    color: #ffffff;
 }
 
-.sidebar div {
+.nav div {
+    color: #acb1bf;
     padding: 8px;
     font-size: 24px;
+    text-align: center;
     display: block;
 }
