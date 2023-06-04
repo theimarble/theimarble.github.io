@@ -85,16 +85,39 @@ footer {
 
 a:link {
     color: #acb1bf;
+    text-decoration: none;
 }
 
 a:visited {
     color: #acb1bf;
+    text-decoration: none;
 }
 
 a:hover {
     color: #acb1bf;
+    text-decoration: none;
 }
 
 a:active {
     color: #acb1bf;
+    text-decoration: none;
+}
+
+.post {
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    height: 100%;
+    text-align: center;
+    background-color: #08090a;
+    border: 1px solid #272732;
+    border-radius: 10px;
+}
+
+.postlist {
+    text-align: left;
+}
+
+p2 {
+    color: #4d4f51;
 }
