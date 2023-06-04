@@ -118,6 +118,12 @@ a:active {
     text-align: left;
 }
 
+.table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 p2 {
     color: #4d4f51;
 }
