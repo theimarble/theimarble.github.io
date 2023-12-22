@@ -1,0 +1,216 @@
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneymedium.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneymediumitalic.otf') format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneysemibold.otf') format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneySemiboldItalic.otf') format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneybook.otf') format("opentype");
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneybookitalic.otf') format("opentype");
+    font-weight: light;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+}
+
+p2 {
+    font-size: 1.15em;
+    color: #5a646c;
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+p3 {
+    font-size: 1.66em;
+    color: #ffffff;
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+p4 {
+    font-size: 1.2em;
+    color: #b5c2d3b0;
+}
+
+p5 {
+    font-size: 1em;
+    color: #404852;
+    font-weight: bold;
+}
+
+body {
+    background-color: #08090a;
+    color: #ffffff;
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    line-height: 1.25;
+    font-size: 100%
+}
+
+.welcomebar {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.nav {
+    height: 100%;
+    width: 70px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding-top: 50px;
+    overflow-x: hidden;
+    background-color: #141618;
+    border-right: 1px solid #272732;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.nav div {
+    color: #acb1bf;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4d4f51;
+}
+
+a:link {
+    color: #acb1bf;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #acb1bf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #acb1bf;
+    text-decoration: none;
+}
+
+a:active {
+    color: #acb1bf;
+    text-decoration: none;
+}
+
+.post {
+    margin: auto;
+    padding: 10px;
+    width: 700px;
+    height: 100%;
+    background-color: #141618;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.compact {
+    margin: auto;
+    padding: 15px;
+    width: 800px;
+    height: 100%;
+    background-color: #141618;
+    border: 0px;
+    border-radius: 10px;
+    transition: scale 0.3s;
+}
+
+.compact:hover {
+    scale: 102.5%
+} 
+
+.compact a:link {
+    color: #ffffff;
+}
+
+.compact a:visited {
+    color: #ffffff;
+}
+
+.sitebutton {
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    width: 800px;
+    height: 100%;
+    background-color: #141618;
+    border: 0px;
+    border-radius: 10px;
+    transition: scale 0.3s;
+}
+
+.sitebutton:hover {
+    scale: 102.5%
+} 
+
+.sitebutton a:link {
+    color: #ffffff;
+}
+
+.sitebutton a:visited {
+    color: #ffffff;
+}
+
+.expanded {
+    margin: auto;
+    padding: 15px;
+    width: 600px;
+    height: 100%;
+    text-align: left;
+    border: 0px;
+    border-radius: 10px;
+    line-height: 1.25;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

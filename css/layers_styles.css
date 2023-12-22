@@ -1,0 +1,244 @@
+:root {
+    --bg-color: #08090a99;
+    --fg-color: #ffffff;
+    --nav-bg-color: #141618;
+    --nav-fg-color: #acb1bf;
+    --nav-border: #272732;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneymedium.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneymediumitalic.otf') format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneysemibold.otf') format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneySemiboldItalic.otf') format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneybook.otf') format("opentype");
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneybookitalic.otf') format("opentype");
+    font-weight: light;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+}
+
+p2 {
+    font-size: 1.15em;
+    color: #5a646c;
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+p3 {
+    font-size: 1.66em;
+    color: var(--fg-color);
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+p4 {
+    font-size: 1.2em;
+    color: #b5c2d3b0;
+}
+
+p5 {
+    font-size: 1em;
+    color: #404852;
+    font-weight: bold;
+}
+
+p6 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #5a646c;
+}
+
+p7 {
+    font-size: 2.2em;
+    color: var(--fg-color);
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(..//posts/layers/background.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: var(--fg-color);
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    line-height: 1.25;
+    font-size: 100%
+}
+
+#logo {
+    color: var(--fg-color);
+}
+
+.outerpage {
+    background-color: var(--bg-color);
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page {
+    width: 680px;
+    margin: auto;
+}
+
+.top {
+    width: 680px;
+    margin-top: 30px;
+}
+
+.content {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.nav {
+    height: 100%;
+    width: 70px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding-top: 50px;
+    overflow-x: hidden;
+    background-color: var(--nav-bg-color);
+    font-size: 36px;
+    color: var(--fg-color);
+}
+
+.nav div {
+    color: var(--nav-fg-color);
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav div:hover {
+    color: #0d8beb;
+}
+
+.navver {
+    position: fixed;
+    width: 50px;
+    text-align: center;
+    bottom: 0;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4d4f51;
+}
+
+a:link {
+    color: var(--nav-fg-color);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--nav-fg-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0d8beb;
+    text-decoration: none;
+}
+
+a:active {
+    color: var(--nav-fg-color);
+    text-decoration: none;
+}
+
+.post {
+    margin: auto;
+    padding: 10px;
+    width: 700px;
+    height: 100%;
+    text-align: left;
+    background-color: var(--nav-bg-color);
+    border: 0px;
+    border-radius: 10px;
+}
+
+.compact {
+    margin: auto;
+    padding: 15px;
+    width: 650px;
+    height: 100%;
+    text-align: left;
+    background-color: var(--nav-bg-color);
+    border: 0px;
+    border-radius: 10px;
+    transition: scale 0.3s;
+}
+
+.compact:hover {
+    scale: 102.5%
+} 
+
+.compact a:link {
+    color: var(--fg-color);
+}
+
+.compact a:visited {
+    color: var(--fg-color);
+}
+
+.expanded {
+    margin: auto;
+    padding: 15px;
+    width: 600px;
+    height: 100%;
+    text-align: left;
+    border: 0px;
+    border-radius: 10px;
+    line-height: 1.25;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
