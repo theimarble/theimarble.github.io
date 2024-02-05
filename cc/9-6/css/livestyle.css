@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "GillSansMT-Light";
+    src: url('../fonts/gill-sans-mt-light.ttf') format("truetype");
+    font-weight: light;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+    color: #ffffff;
+    font-family: 'GillSansMT-Light', 'Gill Sans', 'Gill Sans MT', Arial, Helvetica;
+    font-weight: light;
+    font-size: 18px;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1;
+}
+
+.page {
+    text-align: center;
+    background-image: url(../assets/live_tile.png);
+}
+
+.nav {
+    padding: 0;
+    padding-top: 0px;
+    line-height: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.right {
+    background-color:#a3a3a3;
+    text-align: right;
+    width: 239px;
+    position: fixed;
+    height: 100%;
+}
+
+.cclinfo {
+    text-align: left;
+    background-color: #ffffff;
+    width: 862px;
+    margin-top: -15px;
+    line-height: 0.75;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: rgb(51,51,51);
+    display: block;
+    height: 48px;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 2px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li a:link {
+    color: #ffffff;
+
+}
+
+li a:hover {
+    color: #00aaff;
+}
+
+li a:visited {
+    color: #ffffff;
+}
+
+.bannerimgs {
+    padding: 5px;
+}
+
+.destinations {
+    text-align: left;
+    padding: 40px;
+}
+
+.centertable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.musiclist {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.musiclist a:link {
+    color: #000000;
+}
+
+.musiclist a:visited {
+    color: #000000;
+}
+
+.footer {
+    color: #d6d6d6;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cclp {
+    text-align: left;
+    font-size: 16px;
+}
+
+#cclpart {
+    float: right;
+    margin: 0 0 0 15px;
+    padding: 5px;
+}
+
+a:visited {
+    color: #000000;
+}
+
+.slideshow {
+    width: 100%;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}

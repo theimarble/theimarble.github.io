@@ -241,3 +241,58 @@ a:active {
     display: flex;
     justify-content: center;
 }
+
+.ccnav {
+    padding: 0;
+    padding-top: 0px;
+    line-height: 0;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.ccnav-ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #00000059;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: block;
+    height: 36px;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 17px 9px;
+    font-size: 19px;
+}
+
+li a:link {
+    color: #ffffff;
+
+}
+
+li a:hover {
+    color: #00aaff;
+}
+
+li a:visited {
+    color: #ffffff;
+}
+
+.outerpage {
+    background-color: var(--bg-color);
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
