@@ -296,3 +296,13 @@ li a:visited {
     padding: 10px;
     border-radius: 10px;
 }
+
+.newfooter {
+    text-align: center;
+    line-height: 0.85;
+    color: var(--nav-fg-color);
+}
+
+.ccnavbutton {
+    z-index: 0;
+}
