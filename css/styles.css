@@ -8,9 +8,9 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --bg-color: #ffffff;
+        --bg-color: #f9f9fb;
         --fg-color: #000000;
-        --nav-bg-color: #f9f9fb;
+        --nav-bg-color: #ffffff;
         --nav-fg-color: #c0c2c4;
         --nav-border: 0px;
     }
@@ -142,8 +142,8 @@ body {
     background-color: var(--nav-bg-color);
     font-size: 36px;
     color: var(--fg-color);
+    box-shadow: 0 10px 20px 0 #00000010;
 }
-
 .nav div {
     color: var(--nav-fg-color);
     padding: 10px;
@@ -203,18 +203,20 @@ a:active {
 
 .compact {
     margin: auto;
-    padding: 15px;
+    padding: 20px;
     width: 650px;
     height: 100%;
     text-align: left;
     background-color: var(--nav-bg-color);
     border: 0px;
-    border-radius: 10px;
-    transition: scale 0.3s;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 #00000010;
+    transition: scale 0.3s, box-shadow 0.3s;
 }
 
 .compact:hover {
-    scale: 102.5%
+    scale: 102.5%;
+    box-shadow: 0 10px 20px 0 #00000030;
 } 
 
 .compact a:link {
