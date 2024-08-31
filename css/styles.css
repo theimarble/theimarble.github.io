@@ -1,9 +1,9 @@
 :root {
-    --bg-color: #08090a;
+    --bg-color: #0e1016;
     --fg-color: #ffffff;
-    --nav-bg-color: #141618;
+    --nav-bg-color: #171920;
     --nav-fg-color: #acb1bf;
-    --nav-border: #272732;
+    --nav-border: #2d3039;
 }
 
 @media (prefers-color-scheme: light) {
@@ -67,7 +67,7 @@ h1 {
 
 p2 {
     font-size: 1.15em;
-    color: #5a646c;
+    color: #656f78;
     font-family: 'Whitney', Helvetica, Arial, sans-serif;
     font-weight: normal;
 }
@@ -143,6 +143,7 @@ body {
     font-size: 36px;
     color: var(--fg-color);
     box-shadow: 0 10px 20px 0 #00000010;
+    border-right: 1px solid var(--nav-border);
 }
 .nav div {
     color: var(--nav-fg-color);
@@ -248,12 +249,13 @@ a:active {
     padding: 0;
     padding-top: 0px;
     line-height: 0;
-    display: inline-block;
     text-align: center;
     margin-left: 50px;
+    margin: auto;
 }
 
 .ccnav-ul {
+    width: 800px;
     list-style-type: none;
     margin: auto;
     padding: 0px;
@@ -308,3 +310,38 @@ li a:visited {
 .ccnavbutton {
     z-index: 0;
 }
+
+.site-container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    scrollbar-width: none;
+}
+
+.site-container::-webkit-scrollbar {
+    display: none;
+}
+
+.site-container::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+.site-box {
+    flex: 0 0 250px;
+    display: inline-block;
+    width: 250px;
+    margin-right: 20px;
+    background-color: var(--nav-bg-color);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 #00000010;
+    transition: scale 0.3s, box-shadow 0.3s;
+}
+
+.site-box:hover {
+    scale: 102.5%;
+    box-shadow: 0 10px 20px 0 #00000030;
+} 

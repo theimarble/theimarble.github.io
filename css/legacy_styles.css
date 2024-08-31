@@ -170,13 +170,13 @@ body {
     padding: 0;
     padding-top: 0px;
     line-height: 0;
-    display: inline-block;
     text-align: center;
     margin-left: 50px;
 }
 
 .ccnav-ul {
     list-style-type: none;
+    width: 800px;
     margin: auto;
     padding: 0px;
     overflow: hidden;
