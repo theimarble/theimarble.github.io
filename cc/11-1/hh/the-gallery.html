@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Gallery</title>
+        <link rel="stylesheet" type="text/css" href="../css/hh_styles.css">
+        <link rel="icon" type="image/x-icon" href="../../favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap" rel="stylesheet">
+        <script src="../js/hh_gallery.js" defer></script>
+    </head>
+    <body>
+        <div class="page" style="height: 800px;">
+            <img src="../hh/images/hardware house header image.png" style="width: 700px; height: auto; margin: 0 auto;">
+            <div class="nav">
+                <ul>
+                    <li><a href="../hh.html">Home</a></li>
+                    <li><a href="./the-gallery.html">The Gallery</a></li>
+                    <li><a href="https://www.youtube.com/playlist?list=PL110EFA16E0370FF6">Vintage Apple Tours</a></li>
+                    <li><a href="">Software Showcase</a></li>
+                </ul>
+            </div>
+            <div style="margin: auto; margin-top: -15px; font-size: 17px; color: #000000;">
+                <p>You are viewing the New Pictures gallery. <a href="./older-images.html">Click here</a> to view some of the older images.</p>
+            </div>
+            <div class="gallery" style="display: flex; align-items: flex-start; justify-content: center; height: 450px; margin-top: -100px;">
+                <table cellspacing="7" style="border-collapse: collapse; margin-right: 20px;">
+                    <tr>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/griffin-powermate-usb.webp')"><img src="./images/griffin-powermate-usb_thumb.webp" width="60" height="45"></a></th>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/powerbook-520.webp')"><img src="./images/powerbook-520_thumb.webp" width="60" height="45"></a></th>
+                    </tr>
+                    <tr>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/iphone-3g.webp')"><img src="./images/iphone-3g_thumb.webp" width="60" height="45"></a></th>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/power-mac-g4-cube-glow.webp')"><img src="./images/power-mac-g4-cube-glow_thumb.webp" width="60" height="45"></a></th>
+                    </tr>
+                    <tr>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/ibook-g3.webp')"><img src="./images/ibook-g3_thumb.webp" width="60" height="45"></a></th>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/powerbook-520-2.webp')"><img src="./images/powerbook-520-2_thumb.webp" width="60" height="45"></a></th>
+                    </tr>
+                    <tr>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/power-mac-g4-quicksilver.webp')"><img src="./images/power-mac-g4-quicksilver_thumb.webp" width="60" height="45"></a></th>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/mouse.webp')"><img src="./images/mouse_thumb.webp" width="60" height="45"></a></th>
+                    </tr>
+                    <tr>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/trs80-motherboard-close-up.webp')"><img src="./images/trs80-motherboard-close-up_thumb.webp" width="60" height="45"></a></th>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/powerbook-100.webp')"><img src="./images/powerbook-100_thumb.webp" width="60" height="45"></a></th>
+                    </tr>
+                    <tr>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/macbook-pro-at-night.webp')"><img src="./images/macbook-pro-at-night_thumb.webp" width="60" height="45"></a></th>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/the-glowing-griffin.webp')"><img src="./images/the-glowing-griffin_thumb.webp" width="60" height="45"></a></th>
+                    </tr>
+                    <tr>
+                        <th style="padding: 5px; line-height: 0;"><a href="javascript:void(0);" onclick="updatePreview('./images/apple-2e.webp')"><img src="./images/apple-2e_thumb.webp" width="60" height="45"></a></th>
+                    </tr>
+                </table>
+                <div style="width: 636px;">
+                    <img id="previewImage" src="./images/griffin-powermate-usb.webp" width="636">
+                </div>
+            </div>
+            <div class="footer">
+                <p style="font-size: 14px;">Copyright 2014, Computer Clan</p>
+                <p style="font-size: 14px;">All logos and products belong to their respective owners.</p>
+                <p style="line-height: 1;">All content on this website is property of the Computer Clan (thecomputerclan.com) unless specified. CC Legacy is an unofficial project and not affiliated with the Computer Clan.</p>
+            </div>
+        </div>
+    </body>
+</html>

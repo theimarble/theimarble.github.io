@@ -6,65 +6,67 @@
         <link rel="icon" type="image/x-icon" href="../favicon.png">
     </head>
     <body>
-        <div class="page">
-            <div class="nav">
-                <a href="index.html"><img src="./assets/Site11Banner.jpg"></a>
-                <ul>
-                    <li><a href="series.html">Series</a></li>
-                    <li><a href="live.html">Live</a></li>
-                    <li><a href="podcast.html">Podcast</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="downloads.html">Downloads</a></li>
-                    <li><a href="apply.html">Apply</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                    <li><a href="partnerships.html">Partnerships</a></li>
-                    <li><a href="more.html">More</a></li>
-                </ul>
-                <img src="./assets/cclbanner.png">
-            </div>
-            <br>
-            <br>
-            <div class="livestream" style="text-align: left;">
-                <iframe width="640" height="360" frameborder="0" src="https://www.youtube.com/embed/7Ugo3cqibfc"></iframe>
-            </div>
-            <div class="irc" style="float: right; width: 440px; height: 360px; background-color: #333333; text-align: center; margin-top: -364px;">
-                <p>IRC is not currently available.</p>
-            </div>
-            <div class="infodiv" style="float: right; width: 440px; height: 360px; text-align: left; margin-top: 20px;">
-                <button class="accordion">Schedule and Topics</button>
-                <div class="panel" style="max-width: 362px;">
-                    <p style="margin-top: 5px;">Schedule:</p>
-                    <p style="margin-top: -10px;">A new Computer Clan Live will be airing on December 6 at 8:00 PM central.</p>
-                    <p>Topics:</p>
-                    <p style="margin-top: -10px;">N/A</p>
+        <div class="wrapper">
+            <div class="page">
+                <div class="nav">
+                    <a href="./"><img src="./assets/Site11Banner.jpg"></a>
+                    <ul>
+                        <li><a href="series.html">Series</a></li>
+                        <li><a href="live.html">Live</a></li>
+                        <li><a href="podcast.html">Podcast</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="downloads.html">Downloads</a></li>
+                        <li><a href="apply.html">Apply</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="partnerships.html">Partnerships</a></li>
+                        <li><a href="more.html">More</a></li>
+                    </ul>
+                    <img src="./assets/cclbanner.png">
                 </div>
-                <button class="accordion" style="margin-top: 20px;">Help and Rules</button>
-                <div class="panel">
-                    <p>This is the Computer Clan Live page. Here you can watch the CCL stream and chat in the chat room. You may login in to your USTREAM account to chat in the IRC, or you can sign in as a guest. Use the nickname command to assign a name. Command: /nick yournamehere</p>
-                    <p>CCL also uses YouTube's Live Comments. However, they will not be monitored as frequently as IRC conversations.</p>
-                    <p><a href="./ccl-rules.html">Click Here</a> for the Skype Call and IRC Rules.</p>
+                <br>
+                <br>
+                <div class="livestream" style="text-align: left;">
+                    <iframe width="640" height="360" frameborder="0" src="https://www.youtube.com/embed/7Ugo3cqibfc"></iframe>
                 </div>
-                <script>
-                    var acc = document.getElementsByClassName("accordion");
-                    var i;
+                <div class="irc" style="float: right; width: 440px; height: 360px; background-color: #333333; text-align: center; margin-top: -364px;">
+                    <p>IRC is not currently available.</p>
+                </div>
+                <div class="infodiv" style="float: right; width: 440px; height: 360px; text-align: left; margin-top: 20px;">
+                    <button class="accordion">Schedule and Topics</button>
+                    <div class="panel" style="max-width: 362px;">
+                        <p style="margin-top: 5px;">Schedule:</p>
+                        <p style="margin-top: -10px;">A new Computer Clan Live will be airing on December 6 at 8:00 PM central.</p>
+                        <p>Topics:</p>
+                        <p style="margin-top: -10px;">N/A</p>
+                    </div>
+                    <button class="accordion" style="margin-top: 20px;">Help and Rules</button>
+                    <div class="panel">
+                        <p>This is the Computer Clan Live page. Here you can watch the CCL stream and chat in the chat room. You may login in to your USTREAM account to chat in the IRC, or you can sign in as a guest. Use the nickname command to assign a name. Command: /nick yournamehere</p>
+                        <p>CCL also uses YouTube's Live Comments. However, they will not be monitored as frequently as IRC conversations.</p>
+                        <p><a href="./ccl-rules.html">Click Here</a> for the Skype Call and IRC Rules.</p>
+                    </div>
+                    <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
 
-                    for (i = 0; i < acc.length; i++) {
-                    acc[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var panel = this.nextElementSibling;
-                        if (panel.style.display === "block") {
-                        panel.style.display = "none";
-                        } else {
-                        panel.style.display = "block";
-                        }
-                    });
-                    } 
-                </script>
+                        for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                            panel.style.display = "none";
+                            } else {
+                            panel.style.display = "block";
+                            }
+                        });
+                        } 
+                    </script>
+                </div>
             </div>
-            <div class="footer" style="margin-top: 400px;">
-                <p style="font-size: 14px; color: #d1d1d1;"><a> YouTube </a><a> Twitter </a><a> Facebook </a><a> Contact Us </a><a> Switch to Mobile </a></p>
+            <div class="footer">
+                <p style="font-size: 14px; color: #d1d1d1;"><a href="https://www.youtube.com/ComputerClan"> YouTube </a><a href="https://www.twitter.com/thecomputerclan"> Twitter </a><a href="https://www.facebook.com/ComputerClan"> Facebook </a><a href="./contacts.html"> Contact Us </a><a> Switch to Mobile </a></p>
                 <p style="font-size: 14px; color: #bfbfbf;">Copyright 2013, Computer Clan</p>
-                <p>All content on this website is property of the Computer Clan (thecomputerclan.com) unless specified. Computer Clan Legacy is an unofficial project and not affliated with the Computer Clan.</p>
+                <p>All content on this website is property of the Computer Clan (thecomputerclan.com) unless specified. CC Legacy is an unofficial project and not affiliated with the Computer Clan.</p>
             </div>
         </div>
     </body>

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Whitney";
+    src: url('/css/fonts/whitneymedium.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f9f9fb;
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.indexname {
+    text-align: left;
+}
+
+.indexmod {
+    text-align: left;
+}
+
+.indexsize {
+    text-align: left;
+}
+
+td.indexname {
+    width: 300px;
+}
+
+.glow {
+    color: #fc4349;
+    -webkit-animation-name: glow;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes glow {
+    0% {
+        color: black;
+    }
+    100% {
+        color: #fc4349;
+    }
+}

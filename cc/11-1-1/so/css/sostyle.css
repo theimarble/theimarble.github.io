@@ -1,0 +1,73 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.page {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 735px;
+    animation: 0.5s slideInBottom;
+}
+
+@keyframes slideInBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#latest_ad {
+    animation: 1s fade_in;
+}
+
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+table {
+    text-align: center;
+    width: 735px;
+}
+
+.episodelist {
+    text-align: left;
+    padding: 10px;
+}
+
+.episodelist a:link {
+    color: #000000;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+.footer {
+    color: rgb(121, 121, 121);
+    font-size: 12px;
+    text-align: center;
+    line-height: 0.75;
+}

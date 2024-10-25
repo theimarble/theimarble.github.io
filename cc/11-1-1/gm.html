@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ghost Murderer</title>
+        <link rel="stylesheet" type="text/css" href="./gm/css/gm_style.css">
+        <link rel="icon" type="image/x-icon" href="../favicon.png">
+        <link rel="script" type="text/javascript" href="./js/rss.js">
+    </head>
+    <body>
+        <div class="page" style="height: 1400px;">
+            <div class="nav" style="padding-top: 10px;">
+                <a href="./gm.html"><img src="./gm/assets/header.png" width="400"></a>
+                <ul>
+                    <li><a href="./gm/series.html">THE SERIES</a></li>
+                    <li><a href="https://ghostmurderer.tumblr.com">BLOG</a></li>
+                    <li><a href="./gm/extras.html">EXTRAS</a></li>
+                </ul>
+            </div>
+            <div class="rld_quotes">
+                <p class="quote-text">SEE WHAT PEOPLE ARE SAYING ABOUT GHOST MURDERER</p>
+                <div class="quotes-container">
+                    <div class="quote-slide">
+                        <p class="quote-text-content">"It's like Psych and The Mentalist combined into a MOVIE!"</p>
+                        <p class="quote-author">Sammium Tellus</p>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="quote-text-content">"But in other words, I support this series 100% and I am very happy with 
+                            the outcome of this AMAZING short film. If I wasn't already subscribed, 
+                            I'd subscribe right now."</p>
+                        <p class="quote-author">Skyber21</p>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="quote-text-content">"That was one of the best productions I have seen in a while, from anybody."</p>
+                        <p class="quote-author">TheBaloneyboy</p>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="quote-text-content">"This actually gives me chills."</p>
+                        <p class="quote-author">RandomWafflelfy</p>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="quote-text-content">"This is like the best thing the CC has released!"</p>
+                        <p class="quote-author">Jamesgryffindor99 Productions</p>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="quote-text-content">"The 2013 Young Adult Creator Movie Award goes to Ken from the Computer Clan!"</p>
+                        <p class="quote-author">Nick S. (calebsoong)</p>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="quote-text-content">"That movie was awesome. But I still hope Neil catches this sick son of a b***h!"</p>
+                        <p class="quote-author">robloxlover55</p>
+                    </div>
+                </div>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const slides = document.querySelectorAll('.quote-slide');
+                    let currentIndex = 0;
+            
+                    function showNextSlide() {
+                        slides[currentIndex].classList.remove('active');
+                        currentIndex = (currentIndex + 1) % slides.length;
+                        slides[currentIndex].classList.add('active');
+                    }
+            
+                    setInterval(showNextSlide, 5000); // Change quote every 3 seconds
+                    showNextSlide(); // Show the first slide immediately
+                });
+            </script>
+            <img src="./gm/assets/rld_banner.png" style="padding-top: 40px;">
+            <div class="content" style="padding-top: 10px; font-size: 22px;">
+                <p><span style="color: #ff0000;">LEARN</span> the story about a young man who goes from a narcissistic <span style="color: #ff0000;">CONMAN</span>, to a more humble law enforcement <span style="color: #ff0000;">AGENT</span>.</p>
+                <p>Throughout the twists and turns of putting the bad guys behind bars, Neil Gates works tirelessly to get his revenge on the serial killer that murdered his family.</p>
+            </div>
+        </div>
+    </body>
+</html>
